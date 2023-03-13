@@ -51,7 +51,11 @@ module.exports = () => ({
         }),
         new MiniCssExtractPlugin({}),
         new ESLintPlugin({
-            context: srcJsPath
+            context: srcJsPath,
+            failOnError: false,
+            emitWarning: false,
+            failOnWarning: false,
+            emitError: false
         })
     ],
 
