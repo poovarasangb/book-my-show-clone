@@ -4,7 +4,7 @@ import { InputFields } from "./inputFields";
 
 const AdminSeatArrangement = () => {
 
-    const [seatDetail, setSeatDetails] = useState(() => {});
+    const [seatDetail, setSeatDetails] = useState(() => ({}));
 
     const context = {
         seatDetail,
@@ -12,7 +12,7 @@ const AdminSeatArrangement = () => {
     };
 
     return (
-        <SeatsArrangementContext.Provider context={context}>
+        <SeatsArrangementContext.Provider value={context}>
             <InputFields />
         </SeatsArrangementContext.Provider>
     );

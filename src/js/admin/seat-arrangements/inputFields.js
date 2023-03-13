@@ -4,7 +4,7 @@ export const InputFields = () => {
     const { seatDetail } = useSeatsArrangementContext();
     return (
         <h1>
-            {`Seating Arrangements ${ seatDetail?.seatCount}`}
+            {`Seating Arrangements ${ seatDetail?.seatCount ?? ""}`}
         </h1>
 
     );
