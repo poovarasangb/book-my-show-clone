@@ -52,7 +52,7 @@ module.exports = () => ({
 
     plugins: [
         new HtmlWebpackPlugin({
-            favicon: path.resolve(__dirname, "../../src/img/logo.png")
+            favicon: path.resolve(__dirname, "../../src/img/logo.ico")
         }),
         new MiniCssExtractPlugin({}),
         new ESLintPlugin({
