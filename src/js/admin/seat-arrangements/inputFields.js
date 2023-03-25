@@ -1,5 +1,5 @@
-import { Container } from '@mui/material';
-import { EventSeat } from '@mui/icons-material';
+import { Container } from "@mui/material";
+import { EventSeat } from "@mui/icons-material";
 
 import { useSeatsArrangementContext } from "js/context/seatArrangementContext";
 
